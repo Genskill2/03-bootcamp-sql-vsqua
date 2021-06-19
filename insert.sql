@@ -6,7 +6,7 @@ insert into  publisher ( id , name , country) values ( 5 , 'Del Rey' , 'UK');
 insert into  publisher ( id , name , country) values ( 6 , 'Vintage' , 'UK');
 
  
-insert into  subjects ( id , name ) values ( 1 , 'C')
+insert into  subjects ( id , name ) values ( 1 , 'C');
 insert into  subjects ( id , name ) values ( 2 , 'UNIX');
 insert into  subjects ( id , name ) values ( 3 , 'Techonology');
 insert into  subjects ( id , name ) values ( 4 , 'Go');
