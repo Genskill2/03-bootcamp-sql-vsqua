@@ -10,7 +10,7 @@ insert into  subjects ( id , name ) values ( 1 , 'C');
 insert into  subjects ( id , name ) values ( 2 , 'UNIX');
 insert into  subjects ( id , name ) values ( 3 , 'Techonology');
 insert into  subjects ( id , name ) values ( 4 , 'Go');
-insert into  subjects ( id , name ) values ( 5 , 'Sceince Fiction');
+insert into  subjects ( id , name ) values ( 5 , 'Science Fiction');
 insert into  subjects ( id , name ) values ( 6 , 'Productivity');
 insert into  subjects ( id , name ) values ( 7 , 'Politics');
 insert into  subjects ( id , name ) values ( 8 , 'Psychology');
