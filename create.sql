@@ -1,4 +1,17 @@
-create table publisher (id primary key , name text , country text);
-create table books (id primary key , title text , publisher foreign key to publisher.id);
-create table subjects (id primary key , name text );
-create table books_subjects (book primary foreign key to books.id , subject foreign key to subjects.id);
+create table publisher 
+	(id integer  primary key ,
+	 name text , 
+	 country text);
+
+create table books 
+	(id integer primary key ,
+	 title text ,
+	  publisher  integer references publisher(id));
+
+create table subjects
+ (id integer primary key , 
+ 	name text );
+ 
+create table books_subjects 
+	(book  integer references books(id) ,
+	  subject  integer references subjects(id) );
