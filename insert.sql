@@ -15,7 +15,7 @@ insert into  subjects ( id , name ) values ( 6 , 'Productivity');
 insert into  subjects ( id , name ) values ( 7 , 'Politics');
 insert into  subjects ( id , name ) values ( 8 , 'Psychology');
 insert into  subjects ( id , name ) values ( 9 , 'History');
-insert into  subjects ( id , name ) values ( 10 , 'Sceince Fiction');
+insert into  subjects ( id , name ) values ( 10 , 'Science Fiction');
 
 
 insert into  books (  id , title , publisher ) values ( 1 , 'The C Programming Language' , 1 );
